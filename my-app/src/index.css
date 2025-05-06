@@ -1,0 +1,46 @@
+.add-expense-btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-expense-btn:hover {
+  background-color: #005fa3;
+}
+
+.expense-list {
+  margin-top: 20px;
+}
+
+.expense-item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.expense-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  margin-top: 8px;
+  color: #555;
+}
+
+.expense-form input,
+.expense-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
