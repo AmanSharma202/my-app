@@ -10,6 +10,7 @@ import ExpenseList from "./ExpenseList";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import ExpenseTracker from "./components/ExpenseTracker";
+import AboutUs from "./components/AboutUS";
 
 function App() {
 
@@ -30,9 +31,10 @@ function App() {
       <main className="flex-grow-1">
       <Routes>
         <Route path="/Signup" element={<Signup />} />
-        {/* <Route path="/ExpenseTracker" element={<ExpenseTracker  />} /> */}
-        <Route path="/" element={<Login />} />
+        {/* <Route path="/" element={<ExpenseTracker  />} /> */}
+        <Route path="/login" element={<Login />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/aboutus" element={<AboutUs/>}/>
         <Route path="/contact" element={<Contact  />} />
       </Routes>
    
