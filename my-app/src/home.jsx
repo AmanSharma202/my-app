@@ -36,7 +36,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Expense Tracker</h1>
+      <h1>Expense Tracker - ABHI</h1>
       <ExpenseForm onAddExpense={addExpense} />
       <ExpenseList expenses={expenses} />
     </div>
